@@ -1,0 +1,18 @@
+:root{
+  --backgroundColor: white;
+  --primaryColor: rgb(0, 83, 184);
+  --textColor: black;
+  --red : rgb(223, 0, 45);
+  --gray: rgb(221, 221, 221);
+  --boxShadow: 0px 0px 11px rgba(0, 0, 0, 0.2);
+  --bgLightBlue: rgb(235, 244, 255);
+  --activeStory: rgb(58, 147, 255);
+}
+
+.darkTheme{
+  --backgroundColor: rgb(18,22,33);
+  --textColor: white;
+  --primaryColor: rgb(58, 147, 255);
+  --boxShadow: 0px 0px 11px rgba(0, 0, 0);
+}
+
