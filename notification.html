@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- local link -->
+    <link rel="stylesheet" href="./assets/css/main.min.css" />
+    <script defer src="./assets/js/nav.js"></script>
+    <script defer src="./assets/js/post.js"></script>
+    <!-- live link -->
+    <script
+      src="https://kit.fontawesome.com/8c041a69ff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo-search">
+          <div class="logo-container">
+            <a href="index.html"
+              ><img src="./assets/images/logo.png" alt=""
+            /></a>
+          </div>
+          <form class="one-k-display-none">
+            <div class="search-form">
+              <button class="bgLess">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              </button>
+              <input
+                type="search"
+                name="search-container"
+                placeholder="Search Facebook"
+                class="nav-search-input sssDisplayNone"
+              />
+            </div>
+            <div class="search-result-container displayNone">
+              <!-- <p>No result found</p> -->
+              <ul class="result-list">
+                <li class="result-holder">
+                  <a href="#">
+                    <div class="result">
+                      <div class="profile-detail">
+                        <div class="profile-container">
+                          <img
+                            src="./assets/images/profile-8.jpg"
+                            alt=""
+                            class="profile-pic"
+                          />
+                        </div>
+                        <div class="username-container">
+                          <p class="username">mohammed salami</p>
+                        </div>
+                      </div>
+                      <div class="go-arrow-container">
+                        <i class="fa-solid fa-arrow-right search-result-i"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="result-holder">
+                  <a href="#">
+                    <div class="result">
+                      <div class="profile-detail">
+                        <div class="profile-container">
+                          <img
+                            src="./assets/images/profile-9.jpg"
+                            alt=""
+                            class="profile-pic"
+                          />
+                        </div>
+                        <div class="username-container">
+                          <p class="username">Coco Lepronco</p>
+                        </div>
+                      </div>
+                      <div class="go-arrow-container">
+                        <i class="fa-solid fa-arrow-right search-result-i"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="result-holder">
+                  <a href="#">
+                    <div class="result">
+                      <div class="profile-detail">
+                        <div class="profile-container">
+                          <img
+                            src="./assets/images/profile-19.jpg"
+                            alt=""
+                            class="profile-pic"
+                          />
+                        </div>
+                        <div class="username-container">
+                          <p class="username">Chameleon levi</p>
+                        </div>
+                      </div>
+                      <div class="go-arrow-container">
+                        <i class="fa-solid fa-arrow-right search-result-i"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="result-holder">
+                  <a href="#">
+                    <div class="result">
+                      <div class="profile-detail">
+                        <div class="profile-container">
+                          <img
+                            src="./assets/images/profile-5.jpg"
+                            alt=""
+                            class="profile-pic"
+                          />
+                        </div>
+                        <div class="username-container">
+                          <p class="username">Chameleon levi</p>
+                        </div>
+                      </div>
+                      <div class="go-arrow-container">
+                        <i class="fa-solid fa-arrow-right search-result-i"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+        <ul class="icon-links">
+          <li>
+            <a href="index.html" class="icon-link"
+              ><i class="fa-solid fa-house nav-icon"></i
+            ></a>
+          </li>
+          <li>
+            <a href="message.html" class="icon-link"
+              ><i class="fa-solid fa-message nav-icon"></i>
+              <div class="notification-active">
+                <span class="notification-count">2</span><sup></sup></div
+            ></a>
+          </li>
+          <li>
+            <a href="notification.html" class="icon-link"
+              ><i class="fa-solid fa-bell nav-icon"></i>
+              <div class="notification-active">
+                <span class="notification-count">9</span><sup>+</sup>
+              </div></a
+            >
+          </li>
+          <li class="bssDisplayNone">
+            <a href="#" class="icon-link"
+              ><i class="fa-solid fa-user nav-icon"></i
+            ></a>
+          </li>
+          <li>
+            <a id="open-post-container" href="#" class="icon-link"
+              ><i class="fa-solid fa-square-plus nav-icon"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="profile-nav-section">
+          <div class="theme-btn">
+            <button class="dark-theme"><i class="fa-solid fa-moon"></i></button>
+            <button class="light-theme active-theme">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </div>
+          <div class="profile-nav-holder one-k-display-none">
+            <div class="profile-pic-container">
+              <img src="./assets/images/profile-11.jpg" alt="" />
+            </div>
+            <ul class="nav-profile-link displayNone">
+              <button class="bgLess close-profile-nav">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <div class="profile-links-container">
+                <li>
+                  <a href="#" class="profile-link"
+                    ><p>Profile-page</p>
+                    <i class="fa-solid fa-user profile-link-icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="profile-link"
+                    ><p>Settings</p>
+                    <i class="fa-solid fa-gear profile-link-icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="profile-link"
+                    ><p>Logout</p>
+                    <i
+                      class="fa-solid fa-right-from-bracket profile-link-icon"
+                    ></i
+                  ></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <button class="bgLess nav-menu-btn bsDisplayNone">
+            <i class="fa-solid fa-bars icon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="notification-page-container">
+      <!-- notification -->
+      <div class="content-bar-content-container">
+        <div class="content-bar-title-container">
+          <h1 class="content-title">notifications</h1>
+        </div>
+        <div class="content-bar-container-content">
+          <div class="user-container-holder">
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch</span> liked your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch and 3 others</span> commented on your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-20.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>Mohammed Salami Sdofnasoa</span> commented on your
+                    post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-5.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>sweetest pie</span> shared your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-15.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>rahim victor</span> accepted your friend request
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch</span> liked your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch and 3 others</span> commented on your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-20.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>Mohammed Salami Sdofnasoa</span> commented on your
+                    post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-5.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>sweetest pie</span> shared your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-15.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>rahim victor</span> accepted your friend request
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch</span> liked your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-17.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>pink witch and 3 others</span> commented on your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-20.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>Mohammed Salami Sdofnasoa</span> commented on your
+                    post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-5.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>sweetest pie</span> shared your post
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="user-container">
+                <div class="user-profile-pic">
+                  <img
+                    src="./assets/images/profile-15.jpg"
+                    alt=""
+                    class="profile-pic"
+                  />
+                </div>
+                <div class="notification-container">
+                  <p class="notification-p">
+                    <span>rahim victor</span> accepted your friend request
+                  </p>
+                  <p class="time">3hrs ago</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end of notification -->
+    </section>
+    <main class="message-main-tag-not-needed">
+      <aside class="side-bar sidebar-hidden bsDisplayNone">
+        <div class="side-bar-content">
+          <div class="side-bar-header bsDisplayNone">
+            <div class="logo-container">
+              <a href="index.html">
+                <img src="./assets/images/logo.png" alt="" class="logo" />
+              </a>
+            </div>
+            <div class="theme-btn display">
+              <button class="dark-theme">
+                <i class="fa-solid fa-moon"></i>
+              </button>
+              <button class="light-theme active-theme">
+                <i class="fa-solid fa-sun"></i>
+              </button>
+            </div>
+          </div>
+          <ul class="side-links">
+            <li class="one-k-show">
+              <button id="open-search-mobile" class="side-link">
+                <i class="fa-solid fa-search side-icons"></i>
+                <p>search</p>
+              </button>
+            </li>
+            <li>
+              <a href="#" class="side-link active-side-link">
+                <i class="fa-solid fa-user-group side-icons"></i>
+                <p>friends</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="side-link">
+                <i class="fa-solid fa-users side-icons"></i>
+                <p>Group</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="side-link">
+                <i class="fa-solid fa-flag side-icons"></i>
+                <p>Pages</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="side-link">
+                <i class="fa-solid fa-bookmark side-icons"></i>
+                <p>Saved</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="side-link">
+                <i class="fa-solid fa-gear side-icons"></i>
+                <p>setting</p>
+              </a>
+            </li>
+            <li class="one-k-show">
+              <button class="side-link">
+                <i class="fa-solid fa-right-from-bracket side-icons"></i>
+                <p>logout</p>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <div id="mobile-search-container" class="modal displayNone">
+      <div class="modal-container-holder">
+        <div class="modal-search-container">
+          <div class="search-header-mobile">
+            <button id="close-search-container" class="bgLess">
+              <i class="fa-solid fa-arrow-left search-icon-left"></i>
+            </button>
+            <form class="">
+              <div class="search-form">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input
+                  type="search"
+                  name="search-container"
+                  placeholder="Search Facebook"
+                  class="nav-search-input"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="search-result-container">
+            <!-- <p>No result found</p> -->
+            <ul class="result-list">
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-8.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">mohammed salami</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-9.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Coco Lepronco</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-19.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result-holder">
+                <a href="#">
+                  <div class="result">
+                    <div class="profile-detail">
+                      <div class="profile-container">
+                        <img
+                          src="./assets/images/profile-5.jpg"
+                          alt=""
+                          class="profile-pic"
+                        />
+                      </div>
+                      <div class="username-container">
+                        <p class="username">Chameleon levi</p>
+                      </div>
+                    </div>
+                    <div class="go-arrow-container">
+                      <i class="fa-solid fa-arrow-right search-result-i"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal displayNone" id="post-container-modal">
+      <div class="modal-container-holder">
+        <div class="modal-post-container">
+          <div class="post-title-holder">
+            <h1 class="post-title">Create a post</h1>
+            <button id="close-post-container" class="bgLess">
+              <i class="fa-solid fa-close close-modal"></i>
+            </button>
+          </div>
+          <div class="poster-details">
+            <div class="profile-container">
+              <img
+                src="./assets/images/profile-6.jpg"
+                alt=""
+                class="profile-pic"
+              />
+            </div>
+            <h1 class="username">princess pink lips</h1>
+          </div>
+          <form class="post-container-form">
+            <textarea placeholder="What do  you want to say today?"></textarea>
+            <div class="selected-photo">
+              <img src="./assets/images/meat 2.png" alt="" />
+              <img src="./assets/images/meat variety.png" alt="" />
+              <img src="./assets/images/meat.png" alt="" />
+              <img src="./assets/images/orange meat.png" alt="" />
+            </div>
+            <div class="add-to-post">
+              <input type="file" accept=".png, .jpg, .jpeg" multiple hidden />
+              <p class="add-text">Add to your post</p>
+              <div class="post-buttons">
+                <button class="bgLess">
+                  <i class="fa-solid fa-image img-i"></i>
+                </button>
+              </div>
+            </div>
+            <button type="submit" class="btn">post</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

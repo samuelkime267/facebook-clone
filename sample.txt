@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./assets/css/main.min.css">
+  <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+        <div class="logo-container">
+        <a href="index.html">
+            <i class="fas fa-smile logo"></i>
+          </a>
+        </div>
+        <form class="search-container">
+          <input type="text" placeholder="search here..." name="search" id="searchNav">
+          <button class="search-btn bgless" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <ul class="nav-links">
+          <li class="nav-link"><a href="index.html"><i class="fas fa-home active"></i></a></li>
+          <li class="nav-link"><button class="bgless"><i class="fas fa-plus"></i></button></li>
+          <li class="nav-link"><a href="discover.html"><i class="fas fa-compass"></i></a></li>
+          <li class="nav-link notification"><a href="message.html"><i class="fas fa-message"></i></a>
+            <div class="notification-count-container">
+              <div class="notification-count">
+                <p class="notificationCount">0</p>
+              </div>
+            </div>
+          </li>
+          <li class="nav-link notification">
+            <a href="notification.html">
+              <i class="fas fa-bell"></i> 
+            </a>
+            <div class="notification-count-container">
+              <div class="notification-count">
+                <p class="notificationCount">100</p>
+              </div>
+            </div>
+          </li>
+          <li class="nav-link"><a href="profile.html"><i class="fas fa-user"></i></a></li>
+          <li class="nav-link"><div class="change-theme">
+            <button class="bgless" id="moon">
+              <i class="fas fa-moon"></i>
+            </button>
+            <button class="bgless active-theme" id="sun">
+              <i class="fas fa-sun"></i>
+            </button>
+          </div>
+        </li>
+        </ul>
+        <div class="user-container">
+          <div class="profile-img" id="nav-pic">
+            <img src="./assets/images/profile-4.jpg" alt="">
+          </div>
+          <div class="profile-links">
+            <ul class="profile-links-container">
+              <button class="bgless close-btn" id="close-profile-menu"><i class="fas fa-close"></i></button>
+              <li class="profile-link">
+                <a href="profile.html"><i class="fas fa-user"></i><p>profile page</p></a></li>
+              <li class="profile-link"><a href="settings.html"><i class="fas fa-gear"></i><p>settings</p></a></li>
+              <li class="profile-link">
+                <form class="logout">
+                <button class="bgless"><i class="fas fa-arrow-right-from-bracket"></i> <p>logout</p></button>
+              </form></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </nav>
+  <main class="main-content">
+    <aside>
+      <h1 class="side-bar">side bar</h1>
+    </aside>
+    <section class="feeds">
+      <div class="stories">
+        <div class="story-holder">
+          <div class="story-container">
+            <div class="story">
+              <div class="profile-pic-container">
+                <a href="profile.html">
+                  <img src="./assets/images/profile-4.jpg" alt="">
+                </a>
+              </div>
+              <a href="story.html">
+                <div class="story-image">
+                  <img src="./assets/images/feed-1.jpg" alt="">
+                  <div class="story-details">
+                    <button class="bgless">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <h1 class="username">Add to story</h1>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="story">
+              <div class="profile-pic-container">
+                <a href="profile.html">
+                  <img src="./assets/images/profile-14.jpg" alt="">
+                </a>
+              </div>
+              <a href="story.html">
+                <div class="story-image">
+                  <img src="./assets/images/feed-3.jpg" alt="">
+                  <div class="story-details">
+                    <button class="bgless">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <h1 class="username">Add to story</h1>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="story">
+              <div class="profile-pic-container">
+                <a href="profile.html">
+                  <img src="./assets/images/profile-10.jpg" alt="">
+                </a>
+              </div>
+              <a href="story.html">
+                <div class="story-image">
+                  <img src="./assets/images/feed-1.jpg" alt="">
+                  <div class="story-details">
+                    <button class="bgless">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <h1 class="username">Add to story</h1>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="story">
+              <div class="profile-pic-container">
+                <a href="profile.html">
+                  <img src="./assets/images/profile-3.jpg" alt="">
+                </a>
+              </div>
+              <a href="story.html">
+                <div class="story-image">
+                  <img src="./assets/images/food 3.png" alt="">
+                  <div class="story-details">
+                    <button class="bgless">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <h1 class="username">Add to story</h1>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="story">
+              <div class="profile-pic-container">
+                <a href="profile.html">
+                  <img src="./assets/images/profile-2.jpg" alt="">
+                </a>
+              </div>
+              <a href="story.html">
+                <div class="story-image">
+                  <img src="./assets/images/customer care 2.jpg" alt="">
+                  <div class="story-details">
+                    <button class="bgless">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <h1 class="username">Add to story</h1>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="posts">
+        <div class="post-holder">
+          <div class="user-details">
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content threePostImage">
+                <div class="photoGallery">
+                  <img src="./assets/images/feed-3.jpg" alt="">
+                  <img src="./assets/images/feed-7.jpg" alt="">
+                  <img src="./assets/images/feed-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="post-writeup">
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptas vero tempora recusandae error perspiciatis in temporibus pariatur suscipit.
+                  <span class="see-more">
+                    <button class="bgless">See More</button>
+                  </span>
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">100434</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">1434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content">
+                <div class="photoGallery onePostImage threePostImage">
+                  <img src="./assets/images/fries.png" alt="">
+                </div>
+              </div>
+              <div class="post-writeup">
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptas vero tempora recusandae error perspiciatis in temporibus pariatur suscipit.
+                  <span class="see-more">
+                    <button class="bgless">See More</button>
+                  </span>
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">120040900034</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">134434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content">
+                <div class="photoGallery threePostImage">
+                  <img src="./assets/images/feed-6.jpg" alt="">
+                  <img src="./assets/images/feed-5.jpg" alt="">
+                  <img src="./assets/images/meat variety.png" alt="">
+                </div>
+              </div>
+              <div class="post-writeup">
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptas vero tempora recusandae error perspiciatis in temporibus pariatur suscipit.
+                  <span class="see-more">
+                    <button class="bgless">See More</button>
+                  </span>
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">100434</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">1434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content">
+                <div class="photoGallery threePostImage">
+                  <img src="./assets/images/bg-img-1.jpg" alt="">
+                  <img src="./assets/images/blog-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="post-writeup">
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptas vero tempora recusandae error perspiciatis in temporibus pariatur suscipit.
+                  <span class="see-more">
+                    <button class="bgless">See More</button>
+                  </span>
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">100434</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">1434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content">
+                <div class="photoGallery threePostImage">
+                </div>
+              </div>
+              <div class="post-writeup text-only">
+                <div class="text-only-container">
+                  <img src="./assets/images/text-only.png" alt="">
+                </div>
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">100434</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">1434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+            <div class="post">
+              <div class="post-head">
+                <div class="user-info-container">
+                  <a href="profile.html">
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-16.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                      <h1 class="username">Samuel kime</h1>
+                      <p class="time">26 july at 4:50PM</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="bgless">
+                  <i class="fas fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="post-main-content">
+                <div class="photoGallery threePostImage">
+                </div>
+              </div>
+              <div class="post-writeup text-only">
+                <div class="text-only-container">
+                  <img src="./assets/images/text-only.png" alt="">
+                </div>
+                <p class="post-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptas vero tempora recusandae error perspiciatis in temporibus pariatur suscipit.
+                </p>
+              </div>
+              <div class="post-interactions">
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless unlike notClicked">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="bgless clicked displayNone like">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-likes reaction-count">100434</p><span>likes</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fa-regular fa-message"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-comments reaction-count">1434</p><span>comments</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless">
+                      <i class="fas fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-shares reaction-count">134</p><span>shares</span>
+                  </div>
+                </div>
+                <div class="interaction-holder">
+                  <div class="interaction">
+                    <button class="bgless notClicked ">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </button>
+                    <button class="bgless clicked shared displayNone">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                  </div>
+                  <div class="interaction-count">
+                    <p class="total-saved reaction-count">10</p><span>saved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-box">
+                  <form>
+                    <div class="profile-pic">
+                      <img src="./assets/images/profile-4.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="write a comment here" name="comment" id="comment-box">
+                    <button class="bgless" type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="side-content">
+      <div class="aside-section">
+        <div class="aside-head-container">
+          <h1 class="aside-section-title">Contacts</h1>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <div class="modal">
+    <div class="modal-container">
+      <h1>modal</h1>
+    </div>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
